@@ -49,6 +49,7 @@ int main()
         answer = 'n';
         cout << "input x: " ;
         cin >> x;
+
         if (x >= maxValue)
         {
             cout << x << " >= " << maxValue << ", plz input another!!" << endl;
